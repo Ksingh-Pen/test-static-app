@@ -87,7 +87,7 @@ const Parent2023 = ({ theme }) => {
       )}
       {/* </ErrorBoundary> */}
       <Box id="sample-form1" />
-      <SampleForm linktopage="/form1" />
+      <SampleForm linktopage="/form1" formid="input1" buttonid="button1"/>
       <Box id="prizes" />
       <Prizes theme={theme} />
       {/* <Box id="donate" />
@@ -98,7 +98,7 @@ const Parent2023 = ({ theme }) => {
       <Organizers theme={theme} />
       <PreviousEvents theme={theme} />
       <Box id="sample-form2" />
-      <SampleForm linktopage="/form2" />
+      <SampleForm linktopage="/form2" formid="input2" buttonid="button2" />
       <Box id="contactUS" />
       <Footer theme={theme} />
     </Box>
