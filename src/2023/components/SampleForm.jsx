@@ -11,8 +11,8 @@ const SampleForm = (linktopage, formid, buttonid) => {
   };
   return (
     <div className="form-parent">
-      <input type="text" name="" id="" className="user-input-box" id={formid} />
-      <button onClick={navigatetopage} className="submit-button" id={buttonid}>
+      <input type="text" name="" id="" className="user-input-box" id={formid.formid} />
+      <button onClick={navigatetopage} className="submit-button" id={buttonid.buttonid}>
         Submit Form
       </button>
     </div>
