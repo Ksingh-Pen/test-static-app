@@ -1,6 +1,6 @@
 import React from "react";
 
-const SampleForm = (linktopage) => {
+const SampleForm = (linktopage, formid, buttonid) => {
     console.log("link: ", linktopage.linktopage)
   const navigatetopage = () => {
     var theURL = window.location.origin;
@@ -11,8 +11,8 @@ const SampleForm = (linktopage) => {
   };
   return (
     <div className="form-parent">
-      <input type="text" name="" id="" className="user-input-box" />
-      <button onClick={navigatetopage} className="submit-button">
+      <input type="text" name="" id="" className="user-input-box" id={formid} />
+      <button onClick={navigatetopage} className="submit-button" id={buttonid}>
         Submit Form
       </button>
     </div>
